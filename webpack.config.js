@@ -4,7 +4,8 @@ module.exports = {
     new GenerateSW({
       swDest: "sw.js",
       skipWaiting: true,
-      clientsClaim: true
+      clientsClaim: true,
+      navigateFallback: "/index.html"
     })
   ]
 };
